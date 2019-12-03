@@ -57,7 +57,7 @@
       </el-row>
 
       <el-col :span="2" class="icon_box">
-        <i @click="addItem()" class="el-icon-circle-plus-outline add"></i>
+        <i @click="addItem" class="el-icon-circle-plus-outline add"></i>
       </el-col>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
